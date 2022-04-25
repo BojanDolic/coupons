@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">coupons</string>
+    <string name="kuponi_text">Kuponi</string>
+    <string name="cijene_text">Cijene</string>
+    <string name="statistika_text">Statistika</string>
 </resources>
