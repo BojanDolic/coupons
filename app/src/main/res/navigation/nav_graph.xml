@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.electrocoder.coupons.ui.fragments.MainFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/main_fragment">
+        <action
+            android:id="@+id/action_mainFragment_to_pricesFragment"
+            app:destination="@id/pricesFragment"
+            app:popUpTo="@id/mainFragment"/>
+        <action
+            android:id="@+id/action_mainFragment_to_statisticsFragment"
+            app:destination="@id/statisticsFragment"
+            app:popUpTo="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pricesFragment"
+        android:name="com.electrocoder.coupons.ui.fragments.PricesFragment"
+        android:label="prices_fragment"
+        tools:layout="@layout/prices_fragment" />
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.electrocoder.coupons.ui.fragments.StatisticsFragment"
+        android:label="statistics_fragment"
+        tools:layout="@layout/statistics_fragment" />
+</navigation>

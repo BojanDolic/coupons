@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/list_icon_32"
+        android:title="@string/kuponi_text" />
+
+    <item
+        android:id="@+id/pricesFragment"
+        android:icon="@drawable/price_icon_32"
+        android:title="@string/cijene_text" />
+
+    <item
+        android:id="@+id/statisticsFragment"
+        android:icon="@drawable/statistic_icon_32"
+        android:title="@string/statistika_text" />
+
+    <!-- android:menuCategory="secondary" -->
+
+</menu>
